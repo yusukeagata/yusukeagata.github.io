@@ -1,0 +1,15 @@
+body{
+    background-color: #99CCCC
+}
+section.portfoliotext{
+    text-align: center;
+}
+
+
+footer {
+  padding: 20px 0;
+  font-size: 93%;
+  text-align: center;
+  background-color: #99CCCC;
+  
+}

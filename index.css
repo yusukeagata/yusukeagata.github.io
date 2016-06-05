@@ -1,0 +1,31 @@
+body{
+    background-color: #99CCCC
+}
+header {
+    background-image: url("haikei.jpg");
+    background-position:center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title{
+    text-align: center;
+}
+section{
+    max-width: 800px;
+ 
+ margin: -100px auto 0;
+  background-color: #fff;
+}
+section h3 {
+  padding: 10px 0 20px 0;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+footer {
+  padding: 20px 0;
+  font-size: 93%;
+  text-align: center;
+  background-color: #99CCCC;
+  
+}

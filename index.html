@@ -4,15 +4,81 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>Portfolio</title>
+    <link href="ihover.css" rel="stylesheet">
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css"/>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+         <a class = "navbar-brand" href="">test</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">home</a></li><!--top-->
+          <li><a href="about.html">about</a></li><!--about-->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            Portfolio<b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="Portfolio01.html">Portfolio1</a></li>
+                <li><a href="Portfolio02.html">Portfolio2</a></li>
+                <li><a href="Portfolio03.html">Portfolio3</a></li>
+
+            </ul>
+        </li>
+        </ul>
+        
+      </nav>
+      <div id="title">
+        <h1>Portfolio</h1>
+                <h1>Portfolio</h1>
+        <h1>Portfolio</h1>
+        <h1>Portfolio</h1>
+        <h1>Portfolio</h1>
+        <h1>Portfolio</h1>
+        <h1>Portfolio</h1>
+
+      </div>
+    </header>
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="ih-item square effect6 top_to_bottom"><a href="Portfolio01.html">
+        <div class="img"><img src="http://www.neko-kurashi.com/img/kao01.jpg" class="img-responsive" alt="Responsive image"></div>
+        <div class="info">
+          <h3>Portfolio01</h3>
+          <p>制作物説明文制作物説明文制作物説明文</p>
+        </div></a></div>
+        </div>
+        <div class="col-sm-4">
+            <div class="ih-item square effect6 top_to_bottom"><a href="Portfolio02.html">
+        <div class="img"><img src="http://www.neko-kurashi.com/img/kao01.jpg" class="img-responsive" alt="Responsive image"></div>
+        <div class="info">
+          <h3>Portfolio02</h3>
+          <p>制作物説明文制作物説明文制作物説明文</p>
+        </div></a></div>
+        </div>
+        <div class="col-sm-4">
+            <div class="ih-item square effect6 top_to_bottom"><a href="Portfolio03.html">
+        <div class="img"><img src="http://www.neko-kurashi.com/img/kao01.jpg" class="img-responsive" alt="Responsive image"></div>
+        <div class="info">
+          <h3>Portfolio03</h3>
+          <p>制作物説明文制作物説明文制作物説明文</p>
+        </div></a></div>
+        </div>
+    </div>
+</div>
+      <footer>
+        <p>&copy; 2015 Yusuke Agata.</p>
+      </footer>
+    </div>
   </body>
 </html>
